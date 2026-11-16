@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Fazendeiro Robo v2",
+    "description": "Um robo que constroi uma fazenda, planta e colhe SO o trigo maduro.",
+    "uuid": "8521f678-a6b7-4750-bee3-5690ddf50ddf",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 21, 114]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "7de7d440-51e7-4b80-9286-bdd5566c68b7",
+      "version": [1, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.11.0"
+    }
+  ]
+}
